@@ -1,0 +1,159 @@
+.section2{
+    width: 100% ;
+    height: 100vh;
+    background-image: linear-gradient(#fde8ee,#b2c8f3);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.title-heading{
+    color: #e72c66;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    width: 468px;
+    line-height: 1.1;
+}
+
+.title-text{
+    font-family: 'Open Sans', sans-serif;
+    width: 468px;
+    line-height: 2;
+    
+}
+
+.title-button{
+    width: fit-content;
+    height: fit-content;
+    background-color: #e72c66;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+   font-size: 14px;
+
+}
+
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+.card{
+    width: 305px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards{
+    display: flex;
+    gap: 15px;
+    width: 745px;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 78px;
+    height: 78px;
+    background-color: #ebf1fc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i{
+    font-size: 30px;
+    color: #7485DD;
+    
+}
+
+.title{
+    color: #7485DD;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.text{
+    text-align: center;
+    line-height: 2;
+    text-transform: lowercase;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.free{
+    background-color: #e72c66;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.free-button{
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

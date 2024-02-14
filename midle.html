@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .inner-container {
+            width: 50%;
+            height: 75%;
+            position: relative;
+        }
+
+        .round-line {
+            width: 250px;
+            height: 250px;
+            background: repeating-linear-gradient(135deg, #000,#000 7px, #fff 7px,#fff 21px);
+            border-radius: 50%;
+            position: absolute;
+            bottom: -55px;;
+            left: -55px;
+            z-index: 1;
+        }
+
+        .round-purple {
+            position: absolute;
+            top: 0px;
+            right: -125px;
+            background-color: purple;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+
+        }
+
+        .photo {
+            background-image: url(./drg.jpg);
+            width: 412px;
+            height: 489px;
+            background-size: cover;
+            position: absolute;
+            top: -50px;
+            left: 80px;
+            z-index: 2;
+        }
+
+        .text {
+            position: absolute;
+            z-index: 3;
+            right: 0px;
+            bottom: -50px;
+            width: 305px;
+            height: 402px;
+            padding: 30px 40px;
+            background-color: #F2F2F2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+        }
+        .heading{
+            font-size: 36px;
+            color: #533ebd;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+        }
+
+
+        .just-text{
+            font-size: 20px;
+            line-height: 1.75;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+        }
+        .button{
+            display: flex;
+            justify-content: left;
+        }
+
+        .linker{
+            width: fit-content;
+            height: fit-content;
+            text-decoration: none;
+            color: white;
+            background-color: #533ebd;
+            padding: 20px 40px;
+            border-radius: 40px;
+        }
+        .button-text{
+            font-size: 25px;
+            text-transform: uppercase;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <div class="round-line"></div>
+            <div class="round-purple"></div>
+            <div class="photo"></div>
+            <div class="text">
+                <div class="heading">Design Perfection </div>
+                <div class="just-text">
+                    We’re a small creative design studio based in New York, working with adventurous clients and
+                    providing Creative Concept, Branding, Graphic Design, Art Direction and Digital Communication
+                    services.
+                </div>
+                <div class="button">
+                    <a href="#" class="linker">
+                        <div class="button-text">
+                            Learn more
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
